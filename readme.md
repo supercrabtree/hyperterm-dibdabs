@@ -1,5 +1,4 @@
 # hyperterm-dibdabs
-###### add dibdabs to your hyperterm tabs
 
 <img width="600" src="https://raw.githubusercontent.com/supercrabtree/hyperterm-dibdabs/master/media/screen-shot.png"/>
 
