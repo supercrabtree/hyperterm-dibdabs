@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/supercrabtree/hyperterm-dibdabs/issues"
   },
-  "homepage": "https://github.com/supercrabtree/hyperterm-dibdabs#readme"
+  "homepage": "https://github.com/supercrabtree/hyperterm-dibdabs#readme",
+  "dependencies": {
+    "hashbow": "1.1.1"
+  }
 }
