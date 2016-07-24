@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-dibdabs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Add dibdabs to your hyperterm tabs",
   "main": "bundle.js",
   "scripts": {
