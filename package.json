@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-dibdabs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Tab styles for hyperterm",
   "main": "index.js",
   "repository": {
