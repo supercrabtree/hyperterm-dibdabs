@@ -2,10 +2,7 @@
   "name": "hyperterm-dibdabs",
   "version": "0.0.6",
   "description": "Add dibdabs to your hyperterm tabs",
-  "main": "bundle.js",
-  "scripts": {
-    "prepublish": "browserify index.js -o bundle.js"
-  },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/supercrabtree/hyperterm-dibdabs.git"
@@ -21,8 +18,7 @@
     "url": "https://github.com/supercrabtree/hyperterm-dibdabs/issues"
   },
   "homepage": "https://github.com/supercrabtree/hyperterm-dibdabs#readme",
-  "devDependencies": {
-    "hashbow": "1.1.1",
-    "browserify": "13.0.1"
+  "dependencies": {
+    "hashbow": "1.1.1"
   }
 }
