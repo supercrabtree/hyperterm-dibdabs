@@ -2,9 +2,17 @@
 
 const hashbow = require('hashbow');
 
+function getOverrides(path) {
+  return window.config.getConfig()['hyperterm-dibdabs'].overrides[path];
+}
+
+function getColor(path) {
+  return getOverrides(path) || hashbow(path);
+}
+
 exports.getTabProps = function (uid, parentProps, props) {
   return Object.assign({}, props, {
-    dabColor: hashbow(props.text)
+    dabColor: getColor(props.text)
   });
 };
 
